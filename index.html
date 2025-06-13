@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universitas Pamulang</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/src/unpam.png" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Modak&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- icon bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <img src="/src/unpam.png" alt="" width="30px" height="30px">
+            <a class="navbar-brand text-white ms-2" href="">Universitas Pamulang</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link textNav " aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textNav" href="#about">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textNav" href="#fasilitas">Fasilitas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <section id="home" class="carousel mt5 mb-5">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/src/unpam pusatjpg.jpg" class="d-block w-100" style="height: 600px;"
+                        alt="Kampus UNPAM 1">
+                    <div class="carousel-caption d-none d-md-block titleCarousel">
+                        <h5>Kampus UNPAM 1</h5>
+                        <p>Jl. Surya Kencana No.1, Ciputat, Tangerang Selatan</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/src/kampus2.jpg" class="d-block w-100" style="height:600px;" alt="Kampus UNPAM 2">
+                    <div class="carousel-caption d-none d-md-block titleCarousel">
+                        <h5>Kampus UNPAM 2</h5>
+                        <p>Jl. MH Thamrin, Cilegon, Banten</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/src/kampus3.jpg" class="d-block w-100" style="height:600px;" alt="Kampus UNPAM 3">
+                    <div class="carousel-caption d-none d-md-block titleCarousel">
+                        <h5>Kampus UNPAM 3</h5>
+                        <p>Jl. Pajajaran No.12, Serang, Banten</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/src/kampus4.jpg" class="d-block w-100" style="height:600px;" alt="Kampus UNPAM 4">
+                    <div class="carousel-caption d-none d-md-block titleCarousel">
+                        <h5>Kampus UNPAM 4</h5>
+                        <p>Jl. Raya Pandeglang, Pandeglang, Banten</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+
+    <!-- button -->
+    <div class="button-information mt-2">
+        <div class="row d-flex justify-content-center">
+            <a href="https://pmb.unpam.ac.id/" class="btn btn-outline-primary col-6 col-md-2 mx-2 mb-2">Pendaftaran</a>
+            <a href="https://event.unpam.ac.id/" class="btn btn-outline-primary col-6 col-md-2 mx-2 mb-2">Event</a>
+            <a href="https://perpustakaan.unpam.ac.id/"
+                class="btn btn-outline-primary col-6 col-md-2 mx-2 mb-2">Perpustakaan</a>
+            <a href="https://helpdesk.unpam.ac.id/"
+                class="btn btn-outline-primary col-6 col-md-2 mx-2 mb-2">Helpdesk</a>
+            <a href="https://mentari.unpam.ac.id/"
+                class="btn btn-outline-primary col-6 col-md-2 mx-2 mb-2">E-Learning</a>
+        </div>
+    </div>
+
+    <!-- hero -->
+    <section class="hero-section position-relative text-white mt-5 mb-5">
+        <div class="hero-bg"></div>
+        <div class="container position-relative z-1 py-5">
+            <h1 class="fw-bold display-4 text-dark">
+                Rencanakan Karir Dengan <br> Matang Bersama Universitas Pamulang
+            </h1>
+            <p class="text-secondary">
+                Jangan Hanya Bermimpi, Wujudkan! Daftar Sekarang dan Jadilah Bagian dari Perubahan Besar
+            </p>
+            <a href="#" class="btn btn-outline-dark">Info Selengkapnya</a>
+        </div>
+    </section>
+
+    <!-- our university -->
+    <section id="about" class="our-university mt-5 mb-5">
+        <h2 class="mb-4 mt-4 text-center fw-bold">Tentang Universitas Pamulang</h2>
+        <div class="our d-flex justify-content-items mt-2 mx-3">
+            <div class="gambarUnpam col-4 d-flex align-items-center me-2">
+                <img src="/src/unpam.jpg" alt="" class="img-fluid imgMahasiswa">
+            </div>
+            <div class="teks d-flex align-items-center col-8 mx-2">
+                <p class="text-justify fw-normal">
+                    Universitas Pamulang (UNPAM) adalah pilihan tepat bagi generasi muda yang ingin meniti karier
+                    gemilang
+                    dengan bekal pendidikan berkualitas dan biaya terjangkau. Dengan kurikulum yang relevan dengan
+                    kebutuhan
+                    industri, dosen berpengalaman, serta berbagai program studi unggulan, UNPAM membuka kesempatan luas
+                    bagi
+                    mahasiswa untuk berkembang secara akademik maupun keterampilan praktis. Bergabunglah bersama ribuan
+                    mahasiswa lainnya yang telah membuktikan bahwa UNPAM adalah tempat terbaik untuk meraih mimpi dan
+                    membangun masa depan cerah!
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- card information -->
+    <section id="fasilitas" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4 fw-bold">Fasilitas Universitas Pamulang</h2>
+            <p class="mb-5">Kami menyediakan berbagai fasilitas pendukung untuk kenyamanan dan kelancaran proses
+                belajar-mengajar.</p>
+
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="/src/perpustakaan.png" class="card-img-top img-fluid imageFasilitas"
+                            alt="Perpustakaan">
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Perpustakaan Modern</h5>
+                            <p class="card-text">Ruang baca nyaman dengan koleksi buku lengkap dan akses jurnal online.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="/src/fasilitas-lab-kom.jpg" class="card-img-top img-fluid imageFasilitas"
+                            alt="Lab Komputer">
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Laboratorium Komputer</h5>
+                            <p class="card-text">Dilengkapi perangkat terbaru untuk menunjang praktikum dan riset
+                                mahasiswa.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="/src/auidotorium.png" class="card-img-top img-fluid imageFasilitas" alt="Aula">
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Aula Serbaguna</h5>
+                            <p class="card-text">Tempat untuk seminar, pelatihan, dan kegiatan kampus lainnya.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="/src/gym.jpg" class="card-img-top img-fluid imageFasilitas" alt="Gym Kampus">
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Fasilitas Gym</h5>
+                            <p class="card-text">Area kebugaran untuk mahasiswa dan dosen menjaga kesehatan dan
+                                kebugaran tubuh.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mart -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="src/mart.jpg" class="card-img-top img-fluid imageFasilitas" alt="Mart Kampus">
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Kampus Mart</h5>
+                            <p class="card-text">Toko kebutuhan sehari-hari mahasiswa yang praktis dan terjangkau di
+                                lingkungan kampus.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lab Kimia -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="/src/lab kima.jpg" class="card-img-top img-fluid imageFasilitas" alt="Lab Kimia">
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Laboratorium Kimia</h5>
+                            <p class="card-text">Dilengkapi peralatan praktikum kimia untuk eksperimen dan pembelajaran
+                                interaktif.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Kontak & Alamat -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-semibold">Kontak & Alamat</h5>
+                    <p class="mb-1">
+                        <i class="bi bi-geo-alt-fill me-2"></i>
+                        Jl. Surya Kencana No.1, Pamulang Barat, Tangerang Selatan 15417
+                    </p>
+                    <p class="mb-1">
+                        <i class="bi bi-telephone-fill me-2"></i>
+                        (021) 7412566 • Fax: (021) 74709855
+                    </p>
+                    <p class="mb-1">
+                        <i class="bi bi-envelope-fill me-2"></i>
+                        <a href="mailto:info@unpam.ac.id" class="text-light">info@unpam.ac.id</a>
+                    </p>
+                </div>
+
+                <!-- Website & Kampus -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-semibold">Website & Materi</h5>
+                    <p class="mb-1">
+                        <i class="bi bi-globe2 me-2"></i>
+                        <a href="https://www.unpam.ac.id" target="_blank" class="text-light">www.unpam.ac.id</a>
+                    </p>
+                    <ul class="list-unstyled">
+                        <li>Kampus Viktor: Jl. Raya Puspiptek, Buaran 15310</li>
+                        <li>Kampus Witana: Jl. Witana Harja No.18b, 15417</li>
+                    </ul>
+                </div>
+
+                <!-- Tentang & Sosial Media -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-semibold">Tentang Unpam</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/tentang" class="text-light">Profil Universitas</a></li>
+                        <li><a href="/program-studi" class="text-light">Program Studi</a></li>
+                        <li><a href="/fasilitas" class="text-light">Fasilitas</a></li>
+                        <li><a href="/hubungi-kami" class="text-light">Hubungi Kami</a></li>
+                    </ul>
+                    <div class="mt-3">
+                        <a href="#" class="text-light me-2"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-light me-2"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="border-top border-secondary">
+            <p class="mb-0 text-center small">
+                &copy; 2000–2025 Universitas Pamulang. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
