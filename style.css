@@ -82,3 +82,9 @@ img.imageFasilitas {
     transform: scale(1.1);
     filter: brightness(1.1);
 }
+
+body{
+    background-color: #F8FDEF !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
